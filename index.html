@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonte Ninuto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>DivisãoJS</title>
-    <script src="index.js"></script>
 </head>
+
 <body>
-    
+    <h1>Calculadora de Divisão</h1>
+
+    <label for="numerador">Numerador:</label>
+    <input type="text" id="numerador">
+
+    <label for="denominador">Denominador:</label>
+    <input type="text" id="denominador">
+
+    <button onclick="realizarDivisao()">Calcular</button>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
